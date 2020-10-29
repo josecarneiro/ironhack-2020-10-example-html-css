@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 h1 {
   color: grey;
   font-style: italic;
@@ -19,6 +23,10 @@ h1 {
 
 header {
   padding: 48px 0;
+  background-image: url('https://source.unsplash.com/300x100/?science');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 footer {
