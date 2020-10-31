@@ -48,3 +48,49 @@ li.highlight {
 footer p {
   text-transform: capitalize;
 }
+
+blockquote p {
+  font-style: italic;
+}
+
+/* Direct descent selector */
+
+section > p {
+  color: navy;
+}
+
+/* Direct sibling selector */
+
+img + p {
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* First child pseudo-selector */
+
+ul li:first-child {
+  font-weight: bold;
+  color: navy;
+}
+
+ul li:last-child {
+  color: red;
+}
+
+/* ul li:nth-child(2) {
+  font-style: italic;
+} */
+
+ul li:nth-child(2n - 1) {
+  font-style: italic;
+}
+
+ul li:not(:first-child) {
+  margin-left: 16px;
+}
+
+section img:first-of-type {
+  border: 10px solid coral;
+}
